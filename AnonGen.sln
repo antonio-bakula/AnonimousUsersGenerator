@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AnonGen", "AnonGen\AnonGen.ccproj", "{6F2C6CC0-B762-4D45-8220-B946214CCA23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonGenServiceWebRole", "AnonGenServiceWebRole\AnonGenServiceWebRole.csproj", "{6591D3DF-4C64-492E-A3BD-E37E7DE58507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F2C6CC0-B762-4D45-8220-B946214CCA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2C6CC0-B762-4D45-8220-B946214CCA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2C6CC0-B762-4D45-8220-B946214CCA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2C6CC0-B762-4D45-8220-B946214CCA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6591D3DF-4C64-492E-A3BD-E37E7DE58507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6591D3DF-4C64-492E-A3BD-E37E7DE58507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6591D3DF-4C64-492E-A3BD-E37E7DE58507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6591D3DF-4C64-492E-A3BD-E37E7DE58507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AB5927C-90F0-4A0B-9549-36B34F4C36AA}
+	EndGlobalSection
+EndGlobal
