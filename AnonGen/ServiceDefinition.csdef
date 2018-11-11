@@ -4,7 +4,7 @@
     <Sites>
       <Site name="Web">
         <Bindings>
-          <Binding name="Endpoint1" endpointName="Endpoint1" />
+          <Binding name="Endpoint1" endpointName="Service" />
         </Bindings>
       </Site>
     </Sites>
@@ -12,7 +12,7 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
     </ConfigurationSettings>
     <Endpoints>
-      <InputEndpoint name="Endpoint1" protocol="http" port="80" />
+      <InputEndpoint name="Service" protocol="https" port="80" />
     </Endpoints>
   </WebRole>
 </ServiceDefinition>

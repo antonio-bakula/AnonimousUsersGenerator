@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Languages>
+  <Language name="Undefined">
+    <CultureName></CultureName>
+    <LangScript><![CDATA[ç,Á,á,É,é,Í,í,Ó,ó,Ő,ő,Ú,ú,Ű,ű,Ö,ö,Ü,Ä,ü,Ą,Ć,Ę,Ł,Ń,Ó,Ś,Ź,Ż,ą,ć,ę,ł,ń,ó,ś,ź,ż]]></LangScript>
+    <LatnScript><![CDATA[c,A,a,E,e,I,i,O,o,O,o,U,u,U,u,OE,oe,UE,AE,ue,A,C,E,L,N,O,S,Z,Z,a,c,e,l,n,o,s,z,z]]></LatnScript>
+  </Language>
+  <Language name="Croatian">
+    <CultureName>hr-HR</CultureName>
+    <LangScript><![CDATA[ć,č,š,đ,ž,Č,Ć,Š,Đ,Ž]]></LangScript>
+    <LatnScript><![CDATA[c,c,s,dj,z,C,C,S,DJ,Z]]></LatnScript>
+  </Language>
+  <Language name="German (Germany)">
+    <CultureName>de-DE</CultureName>
+    <LangScript><![CDATA[Ä, Ü, Ö, ä,ü,ö,ß,ẞ]]></LangScript>
+    <LatnScript><![CDATA[AE,UE,OE,ae,ue,oe,ss,ss]]></LatnScript>
+  </Language>
+  <Language name="German (Austria)">
+    <CultureName>de-AT</CultureName>
+    <LangScript><![CDATA[Ä, Ü, Ö, ä,ü,ö,ß,ẞ]]></LangScript>
+    <LatnScript><![CDATA[AE,UE,OE,ae,ue,oe,ss,ss]]></LatnScript>
+  </Language>
+  <Language name="Italian">
+    <CultureName>it-IT</CultureName>
+    <LangScript><![CDATA[À,È,É,Ì,Ò,Ó,Ù,à,è,é,ì,ò,ó,ù]]></LangScript>
+    <LatnScript><![CDATA[A,E,E,I,O,O,U,a,e,e,i,o,o,u]]></LatnScript>
+  </Language>
+  <Language name="French">
+    <CultureName>fr-FR</CultureName>
+    <LangScript><![CDATA[À,Â,Ä,Ç,È,É,Ê,Ë,Î,Ï,Ô,Ö,Œ,Ù,Û,Ü,Ÿ,à,â,ä,ç,è,é,ê,ë,î,ï,ô,ö,œ,ù,û,ü,ÿ]]></LangScript>
+    <LatnScript><![CDATA[A,A,A,C,E,E,E,E,I,I,O,O,OE,U,U,U,Y,a,a,a,c,e,e,e,e,i,i,o,o,oe,u,u,u,y]]></LatnScript>
+  </Language>
+  <Language name="Checz">
+    <CultureName>cz-CZ</CultureName>
+    <LangScript><![CDATA[À,Â,Ä,Č,Ď,È,É,Ê,Ë,Ě,Ô,Í,Î,Ï,Ň,Ô,Ó,Ř,Œ, Ù,Û,Ü,Ÿ,Ť,Ú,Ů,Ý,Ž,à,â,ä,č,ď,è,é,ê,ë,ě,í,î,ï,ň,ô,ó,ř,š,ť,œ ,ù,û,ü,ú,ů,ÿ,ý,ž,ř]]></LangScript>
+    <LatnScript><![CDATA[A,A,A,C,D,E,E,E,E,E,O,I,I,I,N,O,O,R,oe,U,U,U,Y,T,U,U,Y,Z,a,a,a,c,d,e,e,e,e,e,i,i,i,n,o,o,r,s,t,ae,u,u,u,u,u,y,y,z,r]]></LatnScript>
+  </Language>
+  <Language name="Slovak">
+    <CultureName>sk-SK</CultureName>
+    <LangScript><![CDATA[Á,Ä,Č,Ď,É,Í,Ĺ,Ľ,Ň,Ó,Ô,Ŕ,Š,Ť,Ú,Ý,Ž,á,ä,č,ď,é,í,ĺ,ľ,ň,ó,ô,ŕ,š,ť,ú,ý,ž]]></LangScript>
+    <LatnScript><![CDATA[A,A,C,D,E,I,L,L,N,O,O,R,S,T,U,Y,Z,a,a,c,d,e,i,i,i,n,o,o,r,s,t,u,y,z]]></LatnScript>
+  </Language>
+  <Language name="Dutch (Netherlands)">
+    <CultureName>nl-NL</CultureName>
+    <LangScript><![CDATA[Á,Ä,É,Ë,Í,Ï,Ó,Ö,Ú,Ü,á,ä,é,ë,í,ï,ó,ö,ú,ü]]></LangScript>
+    <LatnScript><![CDATA[A,A,E,E,I,I,O,O,U,U,a,a,e,e,i,i,o,o,u,u]]></LatnScript>
+  </Language>
+  <Language name="Dutch (Belgium)">
+    <CultureName>nl-BE</CultureName>
+    <LangScript><![CDATA[Á,Ä,É,Ë,Í,Ï,Ó,Ö,Ú,Ü,á,ä,é,ë,í,ï,ó,ö,ú,ü]]></LangScript>
+    <LatnScript><![CDATA[A,A,E,E,I,I,O,O,U,U,a,a,e,e,i,i,o,o,u,u]]></LatnScript>
+  </Language>
+  <Language name="Hungarian">
+    <CultureName>hu-HU</CultureName>
+    <LangScript><![CDATA[Á,á,É,é,Í,í,Ó,ó,Ú,ú,Ö,ö,Ü,ü,Ő,ő,Ű,ű]]></LangScript>
+    <LatnScript><![CDATA[A,a,E,e,I,i,O,o,U,u,O,o,U,u,O,o,U,u]]></LatnScript>
+  </Language>
+  <Language name="Danish">
+    <CultureName>da-DK</CultureName>
+    <LangScript><![CDATA[Æ,æ,Å,å,Ä,ä,Ø,ø,Ö,ö]]></LangScript>
+    <LatnScript><![CDATA[AE,ae,A,a,A,a,O,o,O,o]]></LatnScript>
+  </Language>
+  <Language name="Norwegian (Bokmål)">
+    <CultureName>nn-NO</CultureName>
+    <LangScript><![CDATA[Æ,æ,Å,å,Ä,ä,Ø,ø,Ö,ö]]></LangScript>
+    <LatnScript><![CDATA[AE,ae,A,a,A,a,O,o,O,o]]></LatnScript>
+  </Language>
+  <Language name="Norwegian (Nynorsk)">
+    <CultureName>nb-NO</CultureName>
+    <LangScript><![CDATA[Æ,æ,Å,å,Ä,ä,Ø,ø,Ö,ö]]></LangScript>
+    <LatnScript><![CDATA[AE,ae,A,a,A,a,O,o,O,o]]></LatnScript>
+  </Language>
+  <Language name="Swedish (Sweden)">
+    <CultureName>sv-SE</CultureName>
+    <LangScript><![CDATA[Æ,æ,Å,å,Ä,ä,Ø,ø,Ö,ö]]></LangScript>
+    <LatnScript><![CDATA[AE,ae,A,a,A,a,O,o,O,o]]></LatnScript>
+  </Language>
+  <Language name="Swedish - Finland">
+    <CultureName>sv-FI</CultureName>
+    <LangScript><![CDATA[Æ,æ,Å,å,Ä,ä,Ø,ø,Ö,ö]]></LangScript>
+    <LatnScript><![CDATA[AE,ae,A,a,A,a,O,o,O,o]]></LatnScript>
+  </Language>
+  <Language name="Romanian">
+    <CultureName>ro-Ro</CultureName>
+    <LangScript><![CDATA[Ş,Ţ,Ă,Â,Î,ş,ţ,ă,â,î]]></LangScript>
+    <LatnScript><![CDATA[S,T,A,A,I,s,t,a,a,i]]></LatnScript>
+  </Language>
+</Languages>

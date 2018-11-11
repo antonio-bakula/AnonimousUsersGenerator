@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="AnonGenServiceWebRole.AnonGenService" CodeBehind="AnonGenService.svc.cs" %>
