@@ -54,9 +54,9 @@ namespace AnonGenServiceWebRole
         resp.Messages.Add("No generator for culture " + culture);
         resp.Success = false;
       }
-      if (count > 100)
+      if (count < 1 || count > 100)
       {
-        resp.Messages.Add("Maximum for count of generated users is 100");
+        resp.Messages.Add("Invalid value for parameter 'count' must be in range 1-100.");
         resp.Success = false;
       }
       return resp;

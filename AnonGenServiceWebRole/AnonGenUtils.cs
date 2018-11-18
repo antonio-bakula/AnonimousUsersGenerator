@@ -35,9 +35,9 @@ namespace AnonGenServiceWebRole
       }
     }
 
-    public static string SanatizeForUrl(string rawUrl)
+    public static string SanatizeForUrl(string raw)
     {
-      string result = (!string.IsNullOrEmpty(rawUrl) ? rawUrl.Trim() : "").ToLower();
+      string result = raw?.Trim().ToLower() ?? ""; 
       while ((result.IndexOf(" ") > 0))
       {
         result = result.Replace(" ", "-");
@@ -79,7 +79,7 @@ namespace AnonGenServiceWebRole
     public static List<TransliterationEntity> _languages;
     static Transliteration()
     {
-      /// constructor treba uzeti XML i pretočiti u neki lakše upotrebljiviji oblik     
+      /// čitam XML data file
 
       var nodes = XDocument.Parse(GetTransliterationXml());
 
