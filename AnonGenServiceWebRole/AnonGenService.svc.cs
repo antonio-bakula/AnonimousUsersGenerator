@@ -9,6 +9,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Web.Http.Cors;
 
 namespace AnonGenServiceWebRole
 {
@@ -21,7 +22,7 @@ namespace AnonGenServiceWebRole
       return _generators.Select(kv => kv.Key).ToList();
     }
 
-    public GenerateUsersResponse GenerateUsers(string culture, int count)
+		public GenerateUsersResponse GenerateUsers(string culture, int count)
     {
       InitializeGenerators();
 
@@ -193,7 +194,7 @@ namespace AnonGenServiceWebRole
       }
       int check = 11 - a;
       if (check == 10) check = 0;
-      return oib;
+      return oib + check.ToString();
     }
 
     public string EMailGenerator(User user)

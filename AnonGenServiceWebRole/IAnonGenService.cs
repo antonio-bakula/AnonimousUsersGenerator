@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Web.Http.Cors;
 
 namespace AnonGenServiceWebRole
 {
@@ -17,7 +18,8 @@ namespace AnonGenServiceWebRole
 
     [OperationContract]
     [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare, UriTemplate = "GenerateUsers/{culture}/?count={count}")]
-    GenerateUsersResponse GenerateUsers(string culture, int count);
+		[EnableCors(origins: "*", headers: "*", methods: "*")]
+		GenerateUsersResponse GenerateUsers(string culture, int count);
   }
 
   [DataContract]
